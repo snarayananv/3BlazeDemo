@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.blaze.BlazeDemoExecution">
+        <methods>
+          <include name="tc03"/>
+          <include name="tc06"/>
+          <include name="tc05"/>
+          <include name="aftMethod"/>
+          <include name="beforeClass"/>
+          <include name="tc02"/>
+          <include name="tc04"/>
+        </methods>
+      </class> <!-- org.blaze.BlazeDemoExecution -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

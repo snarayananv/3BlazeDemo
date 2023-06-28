@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="from" value="Mexico City"/>
+  <parameter name="to" value="London"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.blaze.BlazeDemoExecution">
+        <methods>
+          <include name="aftMethod"/>
+          <include name="beforeClass"/>
+          <include name="tc02" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.blaze.BlazeDemoExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
